@@ -1,0 +1,1 @@
+../../../WeexSDK_MacOS/ios/sdk/WeexSDK/Sources/Debug/WXDebugTool.h

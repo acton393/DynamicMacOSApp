@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC009C0220C633C4008BC19F /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC009C0120C633C4008BC19F /* AppDelegate.mm */; };
+		DC009C0520C633C4008BC19F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC009C0420C633C4008BC19F /* ViewController.m */; };
+		DC009C0720C633C7008BC19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC009C0620C633C7008BC19F /* Assets.xcassets */; };
+		DC009C0A20C633C7008BC19F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC009C0820C633C7008BC19F /* Main.storyboard */; };
+		DC009C0D20C633C7008BC19F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC009C0C20C633C7008BC19F /* main.m */; };
+		DC1CCB0B217433C7000FF1F7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1CCB0A217433C7000FF1F7 /* OpenGL.framework */; };
+		DC1CCB0E2174714E000FF1F7 /* NSFlipedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1CCB0D2174714E000FF1F7 /* NSFlipedView.m */; };
+		DC42463E215CB8B1008AE70E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC42463D215CB8B1008AE70E /* CoreAudio.framework */; };
+		DCA906FF217475AA00328615 /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA906FD2174748300328615 /* WXImgLoaderDefaultImpl.m */; };
+		DCA907022175991D00328615 /* WXDTInputComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA907012175991D00328615 /* WXDTInputComponent.m */; };
+		F1F33820C6DF7F4D49ECBFCD /* libPods-MacOSApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C66EE332EE634B401CF399A /* libPods-MacOSApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C66EE332EE634B401CF399A /* libPods-MacOSApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MacOSApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB3739ED35FBC9BE7408D94 /* Pods-MacOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacOSApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MacOSApp/Pods-MacOSApp.release.xcconfig"; sourceTree = "<group>"; };
+		5D90703663D2BA071B2D7D87 /* Pods-MacOSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacOSApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MacOSApp/Pods-MacOSApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DC009BFD20C633C4008BC19F /* MacOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC009C0020C633C4008BC19F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC009C0120C633C4008BC19F /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		DC009C0320C633C4008BC19F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC009C0420C633C4008BC19F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC009C0620C633C7008BC19F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC009C0920C633C7008BC19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC009C0B20C633C7008BC19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC009C0C20C633C7008BC19F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC1CCB0A217433C7000FF1F7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		DC1CCB0C2174714E000FF1F7 /* NSFlipedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSFlipedView.h; sourceTree = "<group>"; };
+		DC1CCB0D2174714E000FF1F7 /* NSFlipedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSFlipedView.m; sourceTree = "<group>"; };
+		DC42463D215CB8B1008AE70E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		DCA906FC2174748300328615 /* WXImgLoaderDefaultImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderDefaultImpl.h; sourceTree = "<group>"; };
+		DCA906FD2174748300328615 /* WXImgLoaderDefaultImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXImgLoaderDefaultImpl.m; sourceTree = "<group>"; };
+		DCA907002175991D00328615 /* WXDTInputComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXDTInputComponent.h; sourceTree = "<group>"; };
+		DCA907012175991D00328615 /* WXDTInputComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXDTInputComponent.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC009BFA20C633C4008BC19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1CCB0B217433C7000FF1F7 /* OpenGL.framework in Frameworks */,
+				DC42463E215CB8B1008AE70E /* CoreAudio.framework in Frameworks */,
+				F1F33820C6DF7F4D49ECBFCD /* libPods-MacOSApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C416D9F57ADD8756A854A6FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D90703663D2BA071B2D7D87 /* Pods-MacOSApp.debug.xcconfig */,
+				4CB3739ED35FBC9BE7408D94 /* Pods-MacOSApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC009BF420C633C4008BC19F = {
+			isa = PBXGroup;
+			children = (
+				DC009BFF20C633C4008BC19F /* MacOSApp */,
+				DC009BFE20C633C4008BC19F /* Products */,
+				DC42463C215CB8B0008AE70E /* Frameworks */,
+				C416D9F57ADD8756A854A6FA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DC009BFE20C633C4008BC19F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC009BFD20C633C4008BC19F /* MacOSApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC009BFF20C633C4008BC19F /* MacOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				DC009C0020C633C4008BC19F /* AppDelegate.h */,
+				DC009C0120C633C4008BC19F /* AppDelegate.mm */,
+				DCA9070321759DB600328615 /* extend */,
+				DC009C0320C633C4008BC19F /* ViewController.h */,
+				DC009C0420C633C4008BC19F /* ViewController.m */,
+				DC009C0620C633C7008BC19F /* Assets.xcassets */,
+				DC009C0820C633C7008BC19F /* Main.storyboard */,
+				DC1CCB0C2174714E000FF1F7 /* NSFlipedView.h */,
+				DC1CCB0D2174714E000FF1F7 /* NSFlipedView.m */,
+				DC009C0B20C633C7008BC19F /* Info.plist */,
+				DC009C0C20C633C7008BC19F /* main.m */,
+			);
+			path = MacOSApp;
+			sourceTree = "<group>";
+		};
+		DC42463C215CB8B0008AE70E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC1CCB0A217433C7000FF1F7 /* OpenGL.framework */,
+				DC42463D215CB8B1008AE70E /* CoreAudio.framework */,
+				0C66EE332EE634B401CF399A /* libPods-MacOSApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCA9070321759DB600328615 /* extend */ = {
+			isa = PBXGroup;
+			children = (
+				DCA9070521759EE400328615 /* handler */,
+				DCA9070421759ED100328615 /* component */,
+			);
+			path = extend;
+			sourceTree = "<group>";
+		};
+		DCA9070421759ED100328615 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				DCA907012175991D00328615 /* WXDTInputComponent.m */,
+				DCA907002175991D00328615 /* WXDTInputComponent.h */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		DCA9070521759EE400328615 /* handler */ = {
+			isa = PBXGroup;
+			children = (
+				DCA906FC2174748300328615 /* WXImgLoaderDefaultImpl.h */,
+				DCA906FD2174748300328615 /* WXImgLoaderDefaultImpl.m */,
+			);
+			path = handler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC009BFC20C633C4008BC19F /* MacOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC009C1120C633C7008BC19F /* Build configuration list for PBXNativeTarget "MacOSApp" */;
+			buildPhases = (
+				07B358B9927BB267CE6FB4AA /* [CP] Check Pods Manifest.lock */,
+				DC009BF920C633C4008BC19F /* Sources */,
+				DC009BFA20C633C4008BC19F /* Frameworks */,
+				DC009BFB20C633C4008BC19F /* Resources */,
+				6F1A32A3CF33FEA40562B3F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacOSApp;
+			productName = MacOSApp;
+			productReference = DC009BFD20C633C4008BC19F /* MacOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC009BF520C633C4008BC19F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zifan.zx;
+				TargetAttributes = {
+					DC009BFC20C633C4008BC19F = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DC009BF820C633C4008BC19F /* Build configuration list for PBXProject "MacOSApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC009BF420C633C4008BC19F;
+			productRefGroup = DC009BFE20C633C4008BC19F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC009BFC20C633C4008BC19F /* MacOSApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC009BFB20C633C4008BC19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC009C0720C633C7008BC19F /* Assets.xcassets in Resources */,
+				DC009C0A20C633C7008BC19F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07B358B9927BB267CE6FB4AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MacOSApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F1A32A3CF33FEA40562B3F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MacOSApp/Pods-MacOSApp-resources.sh",
+				"${PODS_ROOT}/WeexSDK_MacOS/pre-build/native-bundle-main.js",
+				"${PODS_ROOT}/WeexSDK_MacOS/pre-build/weex-main-jsfm.js",
+				"${PODS_ROOT}/WeexSDK_MacOS/pre-build/weex-polyfill.js",
+				"${PODS_ROOT}/WeexSDK_MacOS/pre-build/weex-rax-api.js",
+				"${PODS_ROOT}/WeexSDK_MacOS/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/weex-main-jsfm.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/weex-polyfill.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/weex-rax-api.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacOSApp/Pods-MacOSApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC009BF920C633C4008BC19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC009C0520C633C4008BC19F /* ViewController.m in Sources */,
+				DCA907022175991D00328615 /* WXDTInputComponent.m in Sources */,
+				DC1CCB0E2174714E000FF1F7 /* NSFlipedView.m in Sources */,
+				DCA906FF217475AA00328615 /* WXImgLoaderDefaultImpl.m in Sources */,
+				DC009C0D20C633C7008BC19F /* main.m in Sources */,
+				DC009C0220C633C4008BC19F /* AppDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC009C0820C633C7008BC19F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC009C0920C633C7008BC19F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC009C0F20C633C7008BC19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DC009C1020C633C7008BC19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DC009C1220C633C7008BC19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D90703663D2BA071B2D7D87 /* Pods-MacOSApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R436ETM4HB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MacOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = org.apache.weex.MacOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		DC009C1320C633C7008BC19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB3739ED35FBC9BE7408D94 /* Pods-MacOSApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R436ETM4HB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MacOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = org.apache.weex.MacOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC009BF820C633C4008BC19F /* Build configuration list for PBXProject "MacOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC009C0F20C633C7008BC19F /* Debug */,
+				DC009C1020C633C7008BC19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC009C1120C633C7008BC19F /* Build configuration list for PBXNativeTarget "MacOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC009C1220C633C7008BC19F /* Debug */,
+				DC009C1320C633C7008BC19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC009BF520C633C4008BC19F /* Project object */;
+}

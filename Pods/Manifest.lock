@@ -1,0 +1,33 @@
+PODS:
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - WeexSDK_MacOS (0.18.0):
+    - WeexSDK_MacOS/WeexCore (= 0.18.0)
+  - WeexSDK_MacOS/WeexCore (0.18.0)
+
+DEPENDENCIES:
+  - SDWebImage
+  - WeexSDK_MacOS (from `https://github.com/acton393/incubator-weex`, branch `mac`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  WeexSDK_MacOS:
+    :branch: mac
+    :git: https://github.com/acton393/incubator-weex
+
+CHECKOUT OPTIONS:
+  WeexSDK_MacOS:
+    :commit: 100dc4c4998b36cf6959890e6ca2526a36f16c7f
+    :git: https://github.com/acton393/incubator-weex
+
+SPEC CHECKSUMS:
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  WeexSDK_MacOS: 329e307c1c950256f91216e35775ee959deb033d
+
+PODFILE CHECKSUM: 3e44be35e104a35d05ace8b2e65c644cfcf51b44
+
+COCOAPODS: 1.5.3

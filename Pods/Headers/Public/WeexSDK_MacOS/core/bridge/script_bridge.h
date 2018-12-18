@@ -1,0 +1,1 @@
+../../../../../WeexSDK_MacOS/weex_core/Source/core/bridge/script_bridge.h
